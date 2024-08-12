@@ -6,7 +6,7 @@ const Testimonials = () => {
     return (
         <section className="flex flex-col items-center m-4 bg-neutral-100 dark:bg-neutral-900 p-4 rounded-lg gap-6">
             <h1 className="text-xl font-bold">Testimonials</h1>
-            <div className=" flex gap-6 justify-between items-center">
+            <div className=" xl:grid lg:grid grid-cols-2 flex flex-col gap-6 justify-between items-center">
                 <Image
                     src={"/person.jpeg"}
                     alt="person"
@@ -14,7 +14,7 @@ const Testimonials = () => {
                     height={500}
                     className="h-96 w-96 rounded-xl bg-blue-300"
                 />
-                <div className="flex gap-2 flex-col w-[60%] ">
+                <div className="flex gap-2  flex-col lg:w-[60%] items-center justify-between">
                     <h2 className="text-xl font-semibold">
                         Head Masters Message
                     </h2>
