@@ -14,7 +14,7 @@ const Testimonials = () => {
                     height={500}
                     className="h-96 w-96 rounded-xl bg-blue-300"
                 />
-                <div className="flex gap-2  flex-col lg:w-[60%] items-center justify-between">
+                <div className="flex gap-2  flex-col lg:w-[60%] items-center justify">
                     <h2 className="text-xl font-semibold">
                         Head Masters Message
                     </h2>
