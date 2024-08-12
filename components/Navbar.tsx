@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="flex p-4">
             <div className="flex items-center w-full justify-between">
                 <Link href="/" className="flex">
-                    <h1 className="bg-gradient-to-t from-[#c7d2fe] to-[#8678f9] bg-clip-text text-xl text-transparent font-bold">
+                    <h1 className="bg-gradient-to-t from-[#84d187] to-[#25c748] bg-clip-text text-xl text-transparent font-bold">
                         Gahogo Adventist Academy
                     </h1>
                 </Link>
